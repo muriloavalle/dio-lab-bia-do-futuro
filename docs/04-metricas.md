@@ -39,12 +39,12 @@ Crie testes simples para validar seu agente:
 ### Teste 3: Pergunta fora do escopo
 - **Pergunta:** "Qual a previsão do tempo?"
 - **Resposta esperada:** Agente informa que só trata de finanças
-- **Resultado:** [ ] Correto  [x] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
-- **Resultado:** [ ] Correto  [x] Incorreto
+- **Resultado:** [x] Correto  [ ] Incorreto
 
 ---
 
@@ -54,8 +54,10 @@ Após os testes, registre suas conclusões:
 
 **O que funcionou bem:**
 - A leitura dos dados utilizados para alimentar o modelo
+- Respeita o escopo das perguntas
+- Não dá respostas alucinando dados
 
 **O que pode melhorar:**
-- Eliminar a alucinacao de respostas e respostas que conteplam perguntas fora do escopo do agente
+- Diminuir o tamanho do modelo utilizado e o tamanho das respostas fornecidas
 
 ---
